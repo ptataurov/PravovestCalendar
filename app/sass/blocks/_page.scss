@@ -1,0 +1,22 @@
+.page {
+  width: 100vw;
+  background-image: linear-gradient(0deg, rgba(55, 125, 255, 0.05) 0%, transparent 100%);
+  min-width: 1024px;
+  position: relative;
+  //overflow: hidden;
+  min-height: 100vh;
+
+  &__inner {
+    max-width: 1185px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  &__bg-header {
+    position: absolute;
+    width: 54%;
+    right: 0;
+    top: -20px;
+    z-index: -10;
+  }
+}

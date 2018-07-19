@@ -1,0 +1,13 @@
+.content {
+  width: 64%;
+  overflow: hidden;
+  height: 640px;
+  //margin-bottom: 64px;
+
+  &__inner {
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+    overflow: auto;
+  }
+}

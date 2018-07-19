@@ -1,0 +1,15 @@
+.sidebar {
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  &__inner {
+    &--fixed {
+      position: fixed;
+      padding-top: 16px;
+      top: 0;
+    }
+  }
+}
